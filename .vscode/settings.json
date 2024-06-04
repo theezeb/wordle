@@ -1,0 +1,29 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "wp-includes/": true,
+        "wp-admin/": true,
+        "wp-config.*": false,
+        "xmlrpc.php": true,
+        "*/**/cache/": true,
+        "*/**/uploads/": true,
+        "*/**/infinitewp/": true,
+        "*/**/.github/": true,
+        ".parcel-cache": true,
+        "dist": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "wp-includes/": true,
+        "wp-admin/": true,
+        "wp-config.*": false,
+        "xmlrpc.php": true,
+        ".vscode/": true,
+        "*/**/cache/": true,
+        "*/**/uploads/": true,
+        "*/**/infinitewp/": true,
+        "*/**/.github/": true,
+        ".parcel-cache": true,
+        "dist": true
+    },
+}
