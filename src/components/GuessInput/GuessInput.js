@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function GuessInput({ handleSubmitGuess }) {
+function GuessInput({ handleSubmitGuess, previousGuess }) {
   const [currentGuess, setCurrentGuess] = useState("");
 
   function handleSubmit(e) {
@@ -26,6 +26,7 @@ function GuessInput({ handleSubmitGuess }) {
           value={currentGuess}
           minLength={5}
           maxLength={5}
+          disabled={previousGuess.length === 6}
           pattern="[a-zA-Z]{5}"
           title="5 letter word"
           onChange={trackGuess}
