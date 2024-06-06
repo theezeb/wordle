@@ -35,6 +35,7 @@ function Game() {
         gameStatus={gameStatus}
         handleSubmitGuess={handleSubmitGuess}
         previousGuess={previousGuess}
+        setPreviousGuess={setPreviousGuess}
       />
       {gameStatus !== "running" && (
         <ResultBanner
